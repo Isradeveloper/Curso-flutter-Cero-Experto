@@ -1,6 +1,6 @@
 void main() {
   final windPlant = WindPlant(initialEnergy: 100);
-  final nuclearPlant = NuclearPlant();
+  final nuclearPlant = NuclearPlant(energyLeft: 200);
 
   print('Wind: ${chargePhone(windPlant)}');
   print('Nuclear: ${chargePhone(nuclearPlant)}');
